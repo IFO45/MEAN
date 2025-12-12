@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple YouTube Feed</title>
+    <style>
+        /* This minimal CSS makes the videos sit side-by-side */
+        .feed-container {
+            display: flex;      /* Makes items sit in a row */
+            flex-wrap: wrap;    /* Moves items to next line if there is no space */
+        }
+
+        .video-box {
+            width: 300px;       /* Sets a fixed width for every video */
+            margin: 15px;       /* Adds space around the video */
+        }
+
+        img {
+            width: 100%;        /* Forces image to fit inside the video box */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>YouTube</h1>
+    <hr> <div class="feed-container">
+
+        <div class="video-box">
+            <img src="https://picsum.photos/id/1/300/200">
+            <h3>My First Video</h3>
+            <p>Channel Name</p>
+            <p>100 views</p>
+        </div>
+
+        <div class="video-box">
+            <img src="https://picsum.photos/id/10/300/200">
+            <h3>Nature Vlog</h3>
+            <p>Traveler</p>
+            <p>500 views</p>
+        </div>
+
+        <div class="video-box">
+            <img src="https://picsum.photos/id/20/300/200">
+            <h3>Coding Tutorial</h3>
+            <p>Dev Guy</p>
+            <p>1M views</p>
+        </div>
+
+        <div class="video-box">
+            <img src="https://picsum.photos/id/30/300/200">
+            <h3>Cute Dog</h3>
+            <p>Animal Lover</p>
+            <p>250 views</p>
+        </div>
+
+        <div class="video-box">
+            <img src="https://picsum.photos/id/40/300/200">
+            <h3>Cooking Pasta</h3>
+            <p>Chef Mario</p>
+            <p>20k views</p>
+        </div>
+
+        <div class="video-box">
+            <img src="https://picsum.photos/id/50/300/200">
+            <h3>Funny Moments</h3>
+            <p>Comedy Club</p>
+            <p>50k views</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
